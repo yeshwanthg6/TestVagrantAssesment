@@ -13,9 +13,9 @@ from collections import defaultdict, deque
 class TestVargantUsersRecentPlayList:
 '''
 
-2. Create an instance of the TestVargantUsersRecentPlayList class with the desired capacity:
+2. Create an instance of the TestVagrantUsersRecentPlayList class with the desired capacity:
 '''
-obj = TestVargantUsersRecentPlayList(capacity=5)
+obj = TestVagrantUsersRecentPlayList(capacity=5)
 '''
 
 3. Add songs to the store for different users using the add_user_song method:
