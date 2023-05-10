@@ -39,7 +39,7 @@ print(repr(obj))
 
 EXAMPLE:
 Going through documentation takes time , so feel free to understand code here more comfortably:
-store = TestVargantUsersRecentPlayList(capacity=5)
+store = TestVagrantUsersRecentPlayList(capacity=5)
 
 store.add_user_song("user1","s1")
 
