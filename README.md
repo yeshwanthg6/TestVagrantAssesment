@@ -42,17 +42,25 @@ Going through documentation takes time , so feel free to understand code here mo
 store = TestVargantUsersRecentPlayList(capacity=5)
 
 store.add_user_song("user1","s1")
+
 store.add_user_song("user1","s2")
+
 store.add_user_song("user1","s3")
+
 store.add_user_song("user1","s4")
+
 store.add_user_song("user1","s5")
+
 store.add_user_song("user1","s6")
 
 print(store.get_all_recently_played_songs("user1")) #Output :['s2', 's3', 's4', 's5', 's6']
 
 store.add_user_song("user2","s1")
+
 store.add_user_song("user2","s2")
+
 store.add_user_song("user2","s3")
+
 store.add_user_song("user2","s4")
 
 print(store.get_all_recently_played_songs("user2")) #Output :['s1', 's2', 's3', 's4']
