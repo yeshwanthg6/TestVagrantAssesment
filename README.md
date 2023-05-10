@@ -12,10 +12,12 @@ from collections import defaultdict, deque
 
 class TestVargantUsersRecentPlayList:
 '''
+
 2. Create an instance of the TestVargantUsersRecentPlayList class with the desired capacity:
 '''
 obj = TestVargantUsersRecentPlayList(capacity=5)
 '''
+
 3. Add songs to the store for different users using the add_user_song method:
 '''
 obj.add_user_song("user1","s5")
@@ -23,11 +25,13 @@ obj.add_user_song("user1","s6")
 obj.add_user_song("user2","s1")
 obj.add_user_song("user2","s2")
 '''
+
 4. Retrieve the recently played songs for a specific user using the get_all_recently_played_songs method:
 '''
 print(obj.get_all_recently_played_songs("user1"))
 print(obj.get_all_recently_played_songs("user2"))
 '''
+
 5. Retrieve the recently played songs for all user with help of special methos:
 '''
 print(repr(obj))
